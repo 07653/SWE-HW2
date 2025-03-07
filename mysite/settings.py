@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,7 +26,10 @@ SECRET_KEY = "django-insecure-b(ujt+z=xz)642lsfgpys4+5^hb86yag8)pxx=9g&^i0a=zzzo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'mysite-henry.eba-ybsiedqs.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "mysite-henry.eba-ybsiedqs.us-east-1.elasticbeanstalk.com",
+]
 
 
 # Application definition
@@ -38,7 +42,6 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-
 ]
 
 MIDDLEWARE = [
@@ -120,7 +123,7 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
