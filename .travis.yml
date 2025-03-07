@@ -22,5 +22,6 @@ deploy:
   bucket_name: "elasticbeanstalk-us-east-1-783764589295"
   bucket_path: "mysite"
   on:
+    repo: "Henry57-web/hl6129-swe1-app"
     branch: main
 
