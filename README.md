@@ -1,4 +1,4 @@
-# swe1-app
+# SWE-HW2
 ## Build & Coverage Status
 
 [![Build Status](https://app.travis-ci.com/07653/SWE-HW2.svg?token=v43vesJbM6yyKKbT8Dxe&branch=main)](https://app.travis-ci.com/07653/SWE-HW2)
