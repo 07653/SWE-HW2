@@ -16,7 +16,7 @@ script:
 
 after_success:
   - coverage report
-  - coveralls --service=github
+  - coveralls 
 
 deploy:
   provider: elasticbeanstalk
