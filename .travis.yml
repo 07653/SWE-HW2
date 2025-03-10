@@ -16,7 +16,7 @@ script:
 
 after_success:
   - coverage report
-  - coveralls debug
+  - coveralls --verbose
 
 deploy:
   provider: elasticbeanstalk
