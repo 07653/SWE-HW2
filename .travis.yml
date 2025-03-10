@@ -16,7 +16,7 @@ script:
 
 after_success:
   - coverage report
-  - coveralls --service=travis-ci --branch=main
+  - coveralls debug
 
 deploy:
   provider: elasticbeanstalk
